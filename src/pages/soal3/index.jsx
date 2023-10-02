@@ -45,7 +45,7 @@ const Soal3 = () => {
           justifyContent="center"
         >
           <FormLabel fontWeight="medium" fontSize="19px">
-            Search :{" "}
+            Search :
           </FormLabel>
           <Input
             placeholder="Ketik Untuk Mencari Data"
