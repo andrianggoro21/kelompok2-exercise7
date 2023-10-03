@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link className='link' href='/'>Home</Link>
         <Link className='link' href='/soal1'>Counter</Link>
         <Link className='link' href='/soal2'>Stopwatch</Link>
-        <Link className='link'>Filter</Link>
+        <Link className='link' href='/soal3'>Filter</Link>
         <Link className='link' href='/soal5'>ChitChat</Link>
         <Link className='icon'onClick={myFunction} ><i className="fa fa-bars"/></Link>
     </Box>
