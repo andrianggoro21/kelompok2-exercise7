@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 15px;
+}
+
+.span {
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    width: auto;
+}

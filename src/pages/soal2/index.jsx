@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Box } from '@chakra-ui/react';
 import { Button } from '@chakra-ui/react';
-import { Text, Heading} from '@chakra-ui/react';
+import { Heading } from '@chakra-ui/react';
 import Navbar from "../../components/navbar";
 
 const Stopwatch = () => {
@@ -35,7 +35,7 @@ const Stopwatch = () => {
     return (
         <>
             <Navbar/>
-            <Box maxW='100vw' minH='100vh' display='flex' justifyContent='center' paddingTop='150px'>
+            <Box maxW='100vw' minH='100vh' display='flex' justifyContent='center' paddingTop='150px' backgroundColor='#5a5a5a'>
                 <Box backgroundColor='#000000' display='flex' alignItems='center' justifyContent='center' flexDirection='column' gap='30px' h='40vh' sx={{w: {xs:'75vw', sm:'70vw', md:'60vw', lg:'50vw', xl:'40vw', '2xl':'30vw'}}} borderRadius='2%'>
                     <Heading color='#ffffff' as='h1' size='4xl'>{minutes.toString().padStart(2, "0")}:{seconds.toString().padStart(2, "0")}</Heading>
                     <Box display='flex' gap='20px'>

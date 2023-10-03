@@ -6,7 +6,7 @@ const Home = () => {
         <>
             <Navbar/>
             <Box maxW='100vw' minH='100vh' backgroundColor='#000000' display='flex' justifyContent='center' paddingTop='300px'>
-                <Heading color='#ffffff' textAlign='center'>Welcome to Exercise 7 <br/> Module Front Web Development</Heading>
+                <Heading color='#ffffff' textAlign='center'>Welcome to Exercise 7 <br/> Module Front Web Development </Heading>
             </Box>
         </>
         
