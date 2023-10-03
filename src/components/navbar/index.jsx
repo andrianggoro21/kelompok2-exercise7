@@ -15,7 +15,7 @@ const Navbar = () => {
     <Box id='myTopnav' className='topnav' backgroundColor='#000000'>
       <Box><Link>Kelompok 2</Link></Box>
         <Link className='link' href='/'>Home</Link>
-        <Link className='link'>Counter</Link>
+        <Link className='link' href='/soal1'>Counter</Link>
         <Link className='link' href='/soal2'>Stopwatch</Link>
         <Link className='link'>Filter</Link>
         <Link className='link' href='/soal5'>ChitChat</Link>
